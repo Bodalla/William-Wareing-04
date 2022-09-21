@@ -1,0 +1,48 @@
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: black;
+    color: white;
+    }
+
+h1 {
+    display:block;
+    text-align: center;
+    color: rgb(6, 5, 90);
+    font-size: 30pt;
+    background-color: gray;
+}
+
+h2 {
+    color: rgb(6, 5, 90);
+    font-size: 24pt;
+    display:block;
+    text-align: center;
+    align-content: center;
+    background-color: gray;
+
+}
+
+h3 {
+    color: rgb(6, 5, 90);
+    font-size: 20pt;
+    display:block;
+    text-align: center;
+    align-content: center;
+    background-color: silver;
+    margin-top: .5in;
+}
+
+p {
+    margin: .15in 3in 0 3in;
+}
+
+#start-btn {
+    margin: .25in 2in 0 6in;
+    font-size: 30pt;
+}
+
+.question-card {
+    display: none;
+}
