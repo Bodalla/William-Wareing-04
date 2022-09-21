@@ -43,6 +43,123 @@ p {
     font-size: 30pt;
 }
 
-.question-card {
+.question-card1 {
     display: none;
+    color: darkblue;
+    font-size: 20pt;
+    margin:auto;
+    max-width: 400px;
+    height: 300px;
+    justify-content: space-between;
+    background-color: silver;
+}
+
+.question-card2 {
+    display: none;
+    color: darkblue;
+    font-size: 20pt;
+    margin:auto;
+    max-width: 400px;
+    height: 300px;
+    justify-content: space-between;
+    background-color: silver;
+}
+
+.question-card3 {
+    display: none;
+    color: darkblue;
+    font-size: 20pt;
+    margin:auto;
+    max-width: 400px;
+    height: 300px;
+    justify-content: space-between;
+    background-color: silver;
+}
+
+.question-card4 {
+    display: none;
+    color: darkblue;
+    font-size: 20pt;
+    margin:auto;
+    max-width: 400px;
+    height: 300px;
+    justify-content: space-between;
+    background-color: silver;
+}
+
+.question-card5 {
+    display: none;
+    color: darkblue;
+    font-size: 20pt;
+    margin:auto;
+    max-width: 400px;
+    height: 300px;
+    justify-content: space-between;
+    background-color: silver;
+}
+
+.question-card6 {
+    display: none;
+    color: darkblue;
+    font-size: 20pt;
+    margin:auto;
+    max-width: 400px;
+    height: 300px;
+    justify-content: space-between;
+    background-color: silver;
+}
+
+.question-card7 {
+    display: none;
+    color: darkblue;
+    font-size: 20pt;
+    margin:auto;
+    max-width: 400px;
+    height: 300px;
+    justify-content: space-between;
+    background-color: silver;
+}
+
+.question-card8 {
+    display: none;
+    color: darkblue;
+    font-size: 20pt;
+    margin:auto;
+    max-width: 400px;
+    height: 300px;
+    justify-content: space-between;
+    background-color: silver;
+}
+
+
+ul button {
+    display:inline-block;
+    text-align: right;
+    padding-left: 100px;
+    justify-content: space-between;
+    height: auto;
+    width: 400px;
+    background-color: aliceblue;
+}
+
+.to-question-2 {
+    display:none;
+}
+
+#correct {
+    display: none;
+    color: green;
+    background-color: silver;
+    margin:auto;
+    width:auto;
+    height:auto;
+}
+
+#incorrect {
+    display:none;
+    color:red;
+    background-color: silver;
+    margin:auto;
+    width:auto;
+    height:auto;
 }
