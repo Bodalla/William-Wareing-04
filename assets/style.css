@@ -43,6 +43,8 @@ p {
     font-size: 30pt;
 }
 
+/*Quiz Questions*/
+
 .question-card1 {
     display: none;
     color: darkblue;
@@ -131,6 +133,11 @@ p {
     background-color: silver;
 }
 
+.results-page {
+    display:none;
+}
+
+/*Answer Buttons*/
 
 ul button {
     display:inline-block;
@@ -142,9 +149,97 @@ ul button {
     background-color: aliceblue;
 }
 
+/*Next Question Buttons*/
+
 .to-question-2 {
     display:none;
+    position:absolute;
+    left:50%;
+    margin-top: 20%;
+    transform:translateX(-50%);
+    font-size: 30pt;
+    color: rgb(6, 5, 90);
+    background-color: silver;
 }
+
+.to-question-3 {
+    display:none;
+    position:absolute;
+    left:50%;
+    margin-top: 20%;
+    transform:translateX(-50%);
+    font-size: 30pt;
+    color: rgb(6, 5, 90);
+    background-color: silver;
+}
+
+.to-question-4 {
+    display:none;
+    position:absolute;
+    left:50%;
+    margin-top: 20%;
+    transform:translateX(-50%);
+    font-size: 30pt;
+    color: rgb(6, 5, 90);
+    background-color: silver;
+}
+
+.to-question-5 {
+    display:none;
+    position:absolute;
+    left:50%;
+    margin-top: 20%;
+    transform:translateX(-50%);
+    font-size: 30pt;
+    color: rgb(6, 5, 90);
+    background-color: silver;
+}
+
+.to-question-6 {
+    display:none;
+    position:absolute;
+    left:50%;
+    margin-top: 20%;
+    transform:translateX(-50%);
+    font-size: 30pt;
+    color: rgb(6, 5, 90);
+    background-color: silver;
+}
+
+.to-question-7 {
+    display:none;
+    position:absolute;
+    left:50%;
+    margin-top: 20%;
+    transform:translateX(-50%);
+    font-size: 30pt;
+    color: rgb(6, 5, 90);
+    background-color: silver;
+}
+
+.to-question-8 {
+    display:none;
+    position:absolute;
+    left:50%;
+    margin-top: 20%;
+    transform:translateX(-50%);
+    font-size: 30pt;
+    color: rgb(6, 5, 90);
+    background-color: silver;
+}
+
+.to-results {
+    display:none;
+    position:absolute;
+    left:50%;
+    margin-top: 20%;
+    transform:translateX(-50%);
+    font-size: 30pt;
+    color: rgb(6, 5, 90);
+    background-color: silver;
+}
+
+/*Feedback Text*/
 
 #correct {
     display: none;
@@ -158,6 +253,15 @@ ul button {
 #incorrect {
     display:none;
     color:red;
+    background-color: silver;
+    margin:auto;
+    width:auto;
+    height:auto;
+}
+
+#no-worries {    
+    display:none;
+    color: blueviolet;
     background-color: silver;
     margin:auto;
     width:auto;
